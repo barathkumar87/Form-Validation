@@ -84,28 +84,5 @@ form.addEventListener('submit', (e) => {
   checkEmail(email);
   checkLength(password, 6, 12);
   checkPasswordsMatch(password, confirmPassword);
-  // if (username.value === '') {
-  //   showError(username, 'Username is required');
-  // } else {
-  //   showSuccess(username);
-  // }
 
-  // if (email.value === '') {
-  //   showError(email, 'Email is required');
-  // } else if (!isValidEmail(email.value)) {
-  //   showError(email, 'Email is not valid');
-  // } else {
-  //   showSuccess(email);
-  // }
-
-  // if (password.value === '') {
-  //   showError(password, 'Password is required');
-  // } else {
-  //   showSuccess(password);
-  // }
-  // if (confirmPassword.value === '') {
-  //   showError(confirmPassword, 'Confirm Password is required');
-  // } else {
-  //   showSuccess(confirmPassword);
-  // }
 });
